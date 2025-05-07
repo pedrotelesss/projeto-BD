@@ -14,6 +14,9 @@ Bem-vindo ao meu repositório de projetos de Banco de Dados, desenvolvido com fo
 ## 🗂️ Estrutura dos projetos
 Cada projeto estará estruturado em uma pasta individual da seguinte maneira:
 
+meu_projeto/
+├── meu_projeto.dmd # Arquivo principal do projeto (Ira ser aberto no Data Modeler)
+├── meu_projeto     # Pasta onde ira conter as informações, como o modelo lógico, relacional, scripts.
 ---
 
 ## 📌 Como abrir os projetos 
