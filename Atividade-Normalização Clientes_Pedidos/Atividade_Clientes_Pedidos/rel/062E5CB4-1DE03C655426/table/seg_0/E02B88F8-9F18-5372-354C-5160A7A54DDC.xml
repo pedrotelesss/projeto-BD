@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E02B88F8-9F18-5372-354C-5160A7A54DDC" name="Pedidos">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>F91F0ADA-49ED-0F22-0228-F438B4691947</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeClientePedido" id="E362B6D6-F3BB-2473-044D-D00BE60B5F54">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPedido" id="18AC8531-0B30-1F63-D717-C2E245CE060D">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>2B850F65-8670-35C1-B245-B506FBFEA454</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="09FFC073-714E-44E4-B1AA-1D386B6AD8CB">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>BD07A412-CB6B-4FFE-D34C-33E23B6B029F</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="FDE1AF46-C456-7A45-44A1-861A8593F675">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>0FCAA0AD-11DC-7AC4-879F-4934F3EB1140</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="3CE66BC2-F294-21D4-8B0A-DD54C260655A">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>66387D08-BFF7-8D8D-B108-B4A8FBC66DF8</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A1B314-E4AF-0CD0-92EE-D0097A6A630F" referredColumn="5C9AA48B-21E9-5682-7309-868AA5E52075"/>
+</associations>
+</Column>
+<Column name="ValorPedido_ValorPedido_ID" id="08E60A88-CF42-78FF-5D87-972425825F77">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76EA7A64-BEF5-B4A4-A3F4-DB2F193EA114" referredColumn="E9FE111E-3FD1-6325-069F-EF8A89859809"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA3CA3E-AE3F-6648-2284-0A3EE680E4F7" name="Pedidos_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>B4F5B3F6-48AC-54BB-8E01-D36F9DC64BAF</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18AC8531-0B30-1F63-D717-C2E245CE060D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEFF82C2-B24A-DAA0-8F44-631CBE8A8957" name="Relation_Cliente_Pedidos">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>BECE41D6-949A-FFE6-007C-2D2F45238759</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CE66BC2-F294-21D4-8B0A-DD54C260655A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F138A33-6462-8B42-F157-98CD19304B0C" name="RelationPedido_Valor">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>0CD8605B-C0B2-FE7F-31B8-B0D42DD16971</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E60A88-CF42-78FF-5D87-972425825F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

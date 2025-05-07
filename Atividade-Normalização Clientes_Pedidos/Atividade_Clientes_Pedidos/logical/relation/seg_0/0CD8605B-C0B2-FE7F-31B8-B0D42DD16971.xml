@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RelationPedido_Valor" directorySegmentName="seg_0" id="0CD8605B-C0B2-FE7F-31B8-B0D42DD16971">
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-27 19:40:11 UTC</createdTime>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BC3933B8-5903-8F5C-74A0-DED6AC4D807C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F91F0ADA-49ED-0F22-0228-F438B4691947</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

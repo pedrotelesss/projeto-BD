@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Endereco_CLiente" directorySegmentName="seg_0" id="37C9C354-6B42-8A17-566F-91930C7F25BA">
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-27 19:18:19 UTC</createdTime>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>004BF3B5-B214-BF46-9910-3E98D392E9D8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E151C0AC-B409-CC42-0930-FFEBBE83267D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

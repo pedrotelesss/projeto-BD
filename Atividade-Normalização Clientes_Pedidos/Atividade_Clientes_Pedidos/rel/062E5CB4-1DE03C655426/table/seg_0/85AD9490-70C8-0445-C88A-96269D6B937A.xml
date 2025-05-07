@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85AD9490-70C8-0445-C88A-96269D6B937A" name="Clientes">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>004BF3B5-B214-BF46-9910-3E98D392E9D8</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="5C9AA48B-21E9-5682-7309-868AA5E52075">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoClientes_EnderecoClientes_ID" id="FE316432-2C99-EC83-11C4-8ED83646748F">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5745F1A7-4D7F-A3D8-DFAE-D72DF5F75A68" referredColumn="2026C9EC-F2A1-011F-69FC-D61D2FF9DF0F"/>
+</associations>
+</Column>
+<Column name="emailsCliente" id="5E8822E6-4FDD-5620-C5E3-9031C0FA3D88">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<comment><![CDATA[Emails do cliente.]]></comment>
+<generatorID>33FED824-84B7-C843-E0DA-6B0A1C69461A</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D034E28C-6571-1BE2-C2B5-9D95DC26E073" name="Clientes_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>FAB7DAB5-C9A4-04BC-8138-E0D287930BF5</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C9AA48B-21E9-5682-7309-868AA5E52075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F585D59-E0A6-54DA-05A4-57BCF97D711E" name="Relation_Endereco_CLiente">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>37C9C354-6B42-8A17-566F-91930C7F25BA</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE316432-2C99-EC83-11C4-8ED83646748F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

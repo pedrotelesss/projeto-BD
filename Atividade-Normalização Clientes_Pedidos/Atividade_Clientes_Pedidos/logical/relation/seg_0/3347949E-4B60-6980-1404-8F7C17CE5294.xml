@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Pedido_Produtos" directorySegmentName="seg_0" id="3347949E-4B60-6980-1404-8F7C17CE5294">
+<createdBy>pedro</createdBy>
+<createdTime>2025-04-27 19:42:52 UTC</createdTime>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<sourcePk>B4F5B3F6-48AC-54BB-8E01-D36F9DC64BAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F91F0ADA-49ED-0F22-0228-F438B4691947</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F14FDDC3-8F31-1954-B5EF-130989C33B5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

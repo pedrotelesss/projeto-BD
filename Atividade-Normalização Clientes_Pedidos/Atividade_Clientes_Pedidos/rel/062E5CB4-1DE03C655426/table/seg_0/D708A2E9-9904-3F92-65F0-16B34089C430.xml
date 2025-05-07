@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D708A2E9-9904-3F92-65F0-16B34089C430" name="Telefone_Clientes">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>01AD0FE9-9AE4-9CE4-ED5E-18A77FEBBB07</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefonesclientes" id="894945A8-15FF-DBC9-4638-EB90E4637883">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>C9270F53-CB8B-FC91-EC76-A8133EE39EDF</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneclientes" id="CB8C0072-FA5E-EA9D-3681-2BF2675AF6E2">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>B82619FA-3C1E-3044-2864-34670934FECA</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="4643AF3F-CFD4-FA3D-0A59-2B8CD79015B2">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>D037B47A-A5AB-6EF8-8BCC-CDCFC3861535</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1AFDB8F-FCB0-A775-5594-CF7CE1C7E2E3" referredColumn="5C9AA48B-21E9-5682-7309-868AA5E52075"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2CDBB91-61B5-2210-D93B-34A91F0D024D" name="Telefone_Clientes_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>433D9268-AE85-8595-9E4E-119F5162B958</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4733CD3D-FEA2-3A7E-4D16-CB4D62C0EE95" name="Relation_Clientes_Telefone">
+<createdBy>pedro</createdBy>
+<createdTime>2025-05-07 02:15:02 UTC</createdTime>
+<generatorID>49DF1EFB-7E12-A7F9-4388-D09B3EC5D9BE</generatorID>
+<ownerDesignName>Atividade_Clientes_Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4643AF3F-CFD4-FA3D-0A59-2B8CD79015B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
