@@ -16,20 +16,20 @@ Cada projeto estará estruturado em uma pasta individual da seguinte maneira:
 
 meu_projeto/
 
-├── meu_projeto.dmd  da              # Arquivo principal do projeto (abre no Data Modeler)
+├── meu_projeto.dmd # Arquivo principal do projeto (abre no Data Modeler)
 
 ├── models/
 
-│   ├── logical/                   # Modelagem lógica (entidades, relacionamentos)
+│   ├── logical/        # Modelagem lógica (entidades, relacionamentos)
 
-│   ├── relational/                # Modelagem relacional (tabelas, colunas, chaves)
+│   ├── relational/     # Modelagem relacional (tabelas, colunas, chaves)
 
-│   ├── physical/                  # Modelagem física (detalhes do SGBD como índices)
+│   ├── physical/       # Modelagem física (detalhes do SGBD como índices)
 
-│   └── xml/                       # Representações em XML dos modelos
+│   └── xml/# Representações em XML dos modelos
 
-├── reports/                       # Relatórios gerados (HTML, XML etc.)
+├── reports/# Relatórios gerados (HTML, XML etc.)
 
-├── scripts/                       # Scripts SQL gerados a partir dos modelos
+├── scripts/# Scripts SQL gerados a partir dos modelos
 
-└── diagrams/                     # Imagens exportadas dos diagramas (opcional)
+└── diagrams/# Imagens exportadas dos diagramas (opcional)
