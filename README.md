@@ -1,5 +1,5 @@
 # 📊 Projetos de Banco de Dados
-Bem-vindo ao meu repositório de projetos de Banco de Dados, desenvolvido com foco na modelagem lógica e relacional utilizando o Oracle SQL Developer Data Modeler. Aqui você encontrará projetos bem organizados, com estrutura clara e voltados para aplicações práticas e acadêmicas.
+Bem-vindo ao meu repositório de projetos de Banco de Dados, desenvolvido com foco na modelagem lógica e relacional utilizando o `Oracle SQL Developer Data Modeler`. Aqui você encontrará projetos bem organizados, com estrutura clara e voltados para aplicações práticas e acadêmicas.
 
 ---
 
@@ -16,4 +16,7 @@ Cada projeto estará estruturado em uma pasta individual da seguinte maneira:
 
 ---
 
-##
+## 📌 Como abrir os projetos 
+1. Abra o Oracle SQL Developer Data Modeler.
+2. Vá em `File > Open...`.
+3. Selecione o arquivo `.dmd` dentro da pasta do projeto desejado.
