@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0174E44B-1888-3177-CC45-855531F74A6E" name="log_seguranca">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-29 00:41:32 UTC</createdTime>
+<generatorID>D9764439-EB3F-DF1B-14C6-40FC41E1F3F3</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="644ECD8F-C50E-2161-6405-E71EFDEF8152">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-29 00:41:32 UTC</createdTime>
+<generatorID>FC1C87BE-92B7-5557-6D7F-05928056C1F5</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="580F3F41-04E6-B9FC-B95E-A83CAC441BA9">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-29 00:41:32 UTC</createdTime>
+<generatorID>94B76077-7D7B-E798-08D9-F76F76906EDA</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operacao" id="9AA05219-7BF6-39EA-0937-F7EEA00527D5">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-29 00:41:32 UTC</createdTime>
+<generatorID>67F9DC9F-F2D5-8F4B-3C6A-3E1DCD531617</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

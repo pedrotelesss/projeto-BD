@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0174E44B-1888-3177-CC45-855531F74A6E" name="log_seguranca" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A69D6AD-1396-FA43-EEA8-63A2D36EAECA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="28BC7F02-1585-28AE-A7FD-F48AA83B1E84" name="Pessoa" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A69D6AD-1396-FA43-EEA8-63A2D36EAECA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7A0C2478-4247-9195-EF6F-F243BDF575EE" name="IMCHistorico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A69D6AD-1396-FA43-EEA8-63A2D36EAECA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="6D5503BA-8503-881F-A747-94D298FECF78" name="Calcula" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6A69D6AD-1396-FA43-EEA8-63A2D36EAECA" propertySourceId="28BC7F02-1585-28AE-A7FD-F48AA83B1E84" propertyTargetId="7A0C2478-4247-9195-EF6F-F243BDF575EE"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A0C2478-4247-9195-EF6F-F243BDF575EE" name="IMCHistorico">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:46:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>IMC</preferredAbbreviation>
+<shortName>IMCHistorico</shortName>
+<synonym>IMCHistorico</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedicao" id="C644374F-8410-1062-FD51-05A7EA97550B">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:46:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoMedicao" id="0DD8CDFD-3B2E-2D55-9A34-9121FD300623">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:47:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaMedicao" id="5CF07A5D-0A89-9324-B511-7EE08083301F">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:47:14 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="492FE22F-2249-E0CD-7DA5-410B0BEF4D0D">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-28 22:32:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vilrimcPessoa" id="AD10B24C-752A-4EE4-9ACB-C927F50F9AFA">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-28 22:32:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseimcPessoa" id="F50CF8FC-0C8D-2F21-01A7-24E09DD4BEEF">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-28 22:32:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="758A3301-DD59-DA83-3519-79EE4229BB29">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-28 23:24:30 UTC</createdTime>
+<generatorID>6D5503BA-8503-881F-A747-94D298FECF78</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02AB9E28-08F9-F966-4FBF-DAC2A3E4510B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6398B6B-3834-9648-8B62-8A0FED282581" name="IMCHistorico_PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-08 00:35:48 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C644374F-8410-1062-FD51-05A7EA97550B</attributeRef>
+<attributeRef>492FE22F-2249-E0CD-7DA5-410B0BEF4D0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

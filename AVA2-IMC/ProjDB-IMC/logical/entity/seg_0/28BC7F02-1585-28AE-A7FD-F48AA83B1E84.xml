@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BC7F02-1585-28AE-A7FD-F48AA83B1E84" name="Pessoa">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:44:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pessoa</preferredAbbreviation>
+<shortName>Pessoa</shortName>
+<synonym>Pessoa</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePessoa" id="B830053A-774E-0666-23E5-046FA1CB36BF">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:45:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="02AB9E28-08F9-F966-4FBF-DAC2A3E4510B">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-28 22:31:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoPessoa" id="3DE74144-21F6-8F81-F0C3-AF799AE0710A">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-29 00:28:37 UTC</createdTime>
+<generatorID>E01982C9-844E-B8D5-3A37-877739B5AFAC</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3694D919-7787-45AA-6F4A-ECA54EB6E10F" name="Pessoa_PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-04-07 23:46:01 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02AB9E28-08F9-F966-4FBF-DAC2A3E4510B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
