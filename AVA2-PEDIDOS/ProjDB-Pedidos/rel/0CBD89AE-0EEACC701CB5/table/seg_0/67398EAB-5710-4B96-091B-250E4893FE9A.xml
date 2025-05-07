@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67398EAB-5710-4B96-091B-250E4893FE9A" name="TelefoneCliente">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:20:33 UTC</createdTime>
+<generatorID>9EFCB3BB-33F5-DDA7-92B7-2EE351D62662</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>TelefoneCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone" id="476DA4C5-D37A-F08C-851B-B0D138B94559">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:20:33 UTC</createdTime>
+<generatorID>91EDEA1E-DD34-50D8-D429-BA8A17BCA1D9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="CF0C2759-6405-7983-2100-CE3F2E9833AC">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:20:33 UTC</createdTime>
+<generatorID>F26ED602-5FBB-F0B4-B035-0690EB25F536</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48C7C84C-A95D-C54F-06A4-6E89A2E624D1" referredColumn="607FDD32-DF13-B07B-49E4-34502C0EE827"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35E9D50E-D45F-81AF-9B05-80282938CCF4" name="Relation_Clientes_Telefone">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:20:33 UTC</createdTime>
+<generatorID>90C73138-FDD9-C9A8-AC35-39FA681407B2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF0C2759-6405-7983-2100-CE3F2E9833AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

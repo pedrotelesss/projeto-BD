@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA7EB4CC-578C-722B-F8C3-F35748816C6B" name="ItensDoPedido">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-05 23:39:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ItensDoPedido</preferredAbbreviation>
+<shortName>ItensDoPedido</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoProduto" id="74E08074-463E-4E51-742D-5F8E078B2B8C">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-05 23:40:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoProduto" id="4DD47791-70CD-52F3-CC72-D981244A5432">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-05 23:43:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="8D3E0A99-5FC5-892E-646D-9071EC12D0F7">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-05 23:45:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="8A96CC88-85FB-9263-514B-32C2B6368CD9">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-05 23:48:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificaçãoPedido" id="143056AF-AF9A-6B38-E483-1C40F136D04A">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:12:19 UTC</createdTime>
+<generatorID>D66B6EFC-67CA-F662-B378-DF170EF48446</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<referedAttribute>B9FF6DB4-B35A-CD01-4AEF-F6BDAEC8DA27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3455402E-B6C4-BDC0-B2DF-7F4A58C9B70C" name="ItensDoPedido PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-06 00:10:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0CBD89AE-1654-9B0D-5B97-0EEACC701CB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74E08074-463E-4E51-742D-5F8E078B2B8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
