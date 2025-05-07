@@ -15,6 +15,7 @@ Bem-vindo ao meu repositório de projetos de Banco de Dados, desenvolvido com fo
 Cada projeto estará estruturado em uma pasta individual da seguinte maneira:
 
 meu_projeto/
+
 ├── meu_projeto.dmd           # Arquivo principal do projeto (abre no Data Modeler)
 
 ├── models/
