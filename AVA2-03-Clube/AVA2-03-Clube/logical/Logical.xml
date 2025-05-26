@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7E0F7136-48CE-A6A1-521E-01F418A37210" mainViewID="B53D6089-5FDB-0463-5F23-D2C93F5D27CC">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 22:44:57 UTC</createdTime>
+<ownerDesignName>AVA2-03-Cadastro de Associado Titular e Dependente</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

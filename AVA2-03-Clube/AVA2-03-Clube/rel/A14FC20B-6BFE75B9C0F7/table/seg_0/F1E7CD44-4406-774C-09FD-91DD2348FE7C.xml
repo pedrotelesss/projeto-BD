@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1E7CD44-4406-774C-09FD-91DD2348FE7C" name="Telefone">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>6458EF64-CE27-102A-18CB-92374888C648</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<abbreviation>Telefone</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone" id="0C1DBDFA-97AD-42A1-1E61-C10ABC7E0E50">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>C9C13199-70E8-5E02-B3CB-06ACED5BD8F3</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="B8C5440C-4670-A6F0-E66F-1E1B12F35258">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>638C7062-3186-1F7F-3E3F-3DFE932983E3</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf1" id="3A825730-A622-E4CA-7CED-F94C165E64BE">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>847AA9C7-4FAB-749E-124E-C4CEA0A4F5D1</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2B44694-3722-1239-2F2D-EEA14926FDE5" referredColumn="3BC764F4-027D-CC0E-4471-8AC6BB5D4775"/>
+</associations>
+</Column>
+<Column name="cpf2" id="F15553EC-C653-7658-00AE-8DA8E645952F">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>547D20BE-E04B-7B02-1C56-B61FCFF6228E</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D5E1537-494F-8421-1A50-DD70BA4F557D" referredColumn="7B853508-5868-5985-A793-A9ACF1DBF3B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCA5F408-6543-2206-766A-352ACA4120A8" name="TelefoneTitular_PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>DC816A3C-F53E-B569-7F10-4946832F52C5</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C1DBDFA-97AD-42A1-1E61-C10ABC7E0E50"/>
+<colUsage columnID="B8C5440C-4670-A6F0-E66F-1E1B12F35258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0707044-EB6F-20EE-5DB8-AA19576D21EE" name="Relation_Dependente_Telefone">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>B504DDE6-3358-06DB-559E-638C3A6AD9FF</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F15553EC-C653-7658-00AE-8DA8E645952F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD15D87A-F430-8C19-D65D-2339248094D2" name="Relation_Titular_Telefone">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>1B23682B-4C0F-DDF7-438F-6DD5744D9C87</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A825730-A622-E4CA-7CED-F94C165E64BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

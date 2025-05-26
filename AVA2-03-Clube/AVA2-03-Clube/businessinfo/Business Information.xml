@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="493C7878-5349-3082-3E76-50C4ADF8BB89">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 22:44:57 UTC</createdTime>
+<ownerDesignName>AVA2-03-Cadastro de Associado Titular e Dependente</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

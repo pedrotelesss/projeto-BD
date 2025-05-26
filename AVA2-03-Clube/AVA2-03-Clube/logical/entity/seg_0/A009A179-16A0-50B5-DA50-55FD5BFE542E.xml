@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A009A179-16A0-50B5-DA50-55FD5BFE542E" name="Dependente">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:45:05 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Dependente</preferredAbbreviation>
+<shortName>Dependente</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="7452909A-6A85-7255-F6A2-248F97910082">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:45:44 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="1FFF8A07-D224-07D5-6CE7-6DC7491C6FBF">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:46:07 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoDependente" id="F948DB4F-5713-217A-674C-ECB90890A16C">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:46:23 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesco" id="696EAAE3-C0FE-9B34-8BD7-BBB64D904B6E">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:49:20 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="70A9E5DE-A447-C22A-B0CF-C56AD07059C9">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:06:42 UTC</createdTime>
+<generatorID>5388C068-AD06-C26C-7091-27C3F8B27BD8</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<referedAttribute>F3D3DD52-9862-5642-03D4-2B335CD3A287</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf2" id="C8FFF950-10B4-0E63-D537-1153F1D936CE">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:07:30 UTC</createdTime>
+<generatorID>AE5AB02F-3E54-A89F-25A5-E65B0F641847</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3CD90ACB-858D-FA62-3AA2-BCC10A6D47AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5EF78A5-6C62-DF12-3EFD-3FE0140BF250" name="Dependente PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:46:02 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7452909A-6A85-7255-F6A2-248F97910082</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

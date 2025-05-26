@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVA2-03-Cadastro de Associado Titular e Dependente" id="D30053C0-A710-22CF-C81D-B28084BBF17D" version="3.5">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 22:44:56 UTC</createdTime>
+<ownerDesignName>AVA2-03-Cadastro de Associado Titular e Dependente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D30053C0-A710-22CF-C81D-B28084BBF17D</designId>
+</OSDM_Design>

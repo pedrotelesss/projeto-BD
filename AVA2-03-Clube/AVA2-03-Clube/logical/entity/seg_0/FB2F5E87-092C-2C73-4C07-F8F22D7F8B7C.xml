@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB2F5E87-092C-2C73-4C07-F8F22D7F8B7C" name="Endereco">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:30:11 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Endereco</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="F3D3DD52-9862-5642-03D4-2B335CD3A287">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:04:58 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="ECE42C4A-2D58-474C-6D43-179A4202EB8D">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:31:17 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroEndereco" id="52A0E1FC-578E-0024-6A81-0B96F1495296">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:37:47 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="1A38607E-14F3-EEE6-99DD-51E43C7F5D5E">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:39:16 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairroEndereco" id="EF78F35F-909E-8D54-2A05-D8BB852473C3">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:40:14 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidadeFederativa" id="C711FB60-C168-8ACF-43FB-2C15E4D7CFE8">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:41:53 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="71EE4E01-5EBF-3247-C066-01A75B1445B7">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:42:35 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="2EE0E237-2544-D5D8-F36E-6E1223B2A48D">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:05:57 UTC</createdTime>
+<generatorID>996F07AE-9F65-BEB8-BFDD-E2DB7140149C</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<referedAttribute>3CD90ACB-858D-FA62-3AA2-BCC10A6D47AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf2" id="41F1EFA8-0E24-1634-41DE-5CBBAB883D7A">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:06:27 UTC</createdTime>
+<generatorID>5388C068-AD06-C26C-7091-27C3F8B27BD8</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<referedAttribute>7452909A-6A85-7255-F6A2-248F97910082</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5772D1D-47B9-FB2B-3061-A9FE2A4E9A81" name="Endereco PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 23:44:06 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3D3DD52-9862-5642-03D4-2B335CD3A287</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

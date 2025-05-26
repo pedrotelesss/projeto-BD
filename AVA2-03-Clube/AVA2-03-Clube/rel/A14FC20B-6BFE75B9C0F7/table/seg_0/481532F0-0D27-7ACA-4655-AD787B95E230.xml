@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="481532F0-0D27-7ACA-4655-AD787B95E230" name="Dependente">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>A009A179-16A0-50B5-DA50-55FD5BFE542E</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<abbreviation>Dependente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="7B853508-5868-5985-A793-A9ACF1DBF3B6">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>7452909A-6A85-7255-F6A2-248F97910082</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDependente" id="6C8EC602-A518-E6FF-039D-057AB8A8FF6C">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>1FFF8A07-D224-07D5-6CE7-6DC7491C6FBF</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimentoDependente" id="D1280D42-12BA-EBB0-A58F-87BE0F7AA819">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>F948DB4F-5713-217A-674C-ECB90890A16C</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauParentesco" id="241AB7A9-B160-2E13-EA66-717EA184F200">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>696EAAE3-C0FE-9B34-8BD7-BBB64D904B6E</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf1" id="11C5B16D-679F-25CC-F6EA-2DE05529CB3E">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>70A9E5DE-A447-C22A-B0CF-C56AD07059C9</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11974793-B667-2A6F-9776-DF63AEF45719" referredColumn="FFDE8C82-010B-D476-0A4D-9915E5C9702C"/>
+</associations>
+</Column>
+<Column name="cpf2" id="41BA6AE7-A976-DB9C-EF16-8CF6D6A6A1A0">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>C8FFF950-10B4-0E63-D537-1153F1D936CE</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EFF34FE-4211-5E30-A336-E80825BDD2B5" referredColumn="3BC764F4-027D-CC0E-4471-8AC6BB5D4775"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D747BFA-FE1A-EEE6-9FE0-C31185D734B9" name="Dependente_PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>D5EF78A5-6C62-DF12-3EFD-3FE0140BF250</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B853508-5868-5985-A793-A9ACF1DBF3B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C379E45D-C130-7F6B-B09D-87A85D2538E2" name="Dependente__IDX">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5388C068-AD06-C26C-7091-27C3F8B27BD8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="11C5B16D-679F-25CC-F6EA-2DE05529CB3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17D12FD1-9835-4493-DAC6-D1B4C39F9FDB" name="Relation_Dependentev1">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>5388C068-AD06-C26C-7091-27C3F8B27BD8</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11C5B16D-679F-25CC-F6EA-2DE05529CB3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A63EBDF-1FE6-6FB3-C2EC-94B20760FA5B" name="Relation_Titular_Dependente">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>AE5AB02F-3E54-A89F-25A5-E65B0F641847</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BA6AE7-A976-DB9C-EF16-8CF6D6A6A1A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

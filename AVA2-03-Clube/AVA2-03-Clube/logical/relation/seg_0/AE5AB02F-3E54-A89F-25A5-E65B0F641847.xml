@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Titular_Dependente" directorySegmentName="seg_0" id="AE5AB02F-3E54-A89F-25A5-E65B0F641847">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:07:30 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<engineerTo>
+<item key="A14FC20B-95EC-4CE6-9089-6BFE75B9C0F7" value="true"/>
+</engineerTo>
+<sourcePk>EFE6D1F8-D1A6-2972-2F66-05BFD8109338</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA42EFCC-913F-BFA2-A2D9-B22ABB5840E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A009A179-16A0-50B5-DA50-55FD5BFE542E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

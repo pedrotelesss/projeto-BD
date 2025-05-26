@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="EAC13E12-C52B-D89A-B679-6B21245A37D3">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-19 22:44:57 UTC</createdTime>
+<ownerDesignName>AVA2-03-Cadastro de Associado Titular e Dependente</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

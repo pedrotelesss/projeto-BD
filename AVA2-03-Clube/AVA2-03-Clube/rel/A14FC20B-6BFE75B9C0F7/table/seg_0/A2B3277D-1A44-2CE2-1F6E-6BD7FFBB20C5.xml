@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2B3277D-1A44-2CE2-1F6E-6BD7FFBB20C5" name="Titular">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>FA42EFCC-913F-BFA2-A2D9-B22ABB5840E4</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<abbreviation>Titular</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="3BC764F4-027D-CC0E-4471-8AC6BB5D4775">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>3CD90ACB-858D-FA62-3AA2-BCC10A6D47AF</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeTitular" id="05053E0A-C9B1-F8EC-0299-BCF50840B9AD">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>5BCC669B-B08A-DF60-3F0A-A3EA050DD868</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimentoTitular" id="B75C821C-7192-C360-7F74-DD1C205B6D80">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>E7BA7251-DF22-2301-A851-6BBD98B4D21E</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf1" id="3D8549F2-50AD-EABD-8684-D3A0844371E4">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>C6F3C47E-6642-F817-B25D-61CF5E58FC17</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20637783-AB83-98A0-9628-C932C89D9288" referredColumn="FFDE8C82-010B-D476-0A4D-9915E5C9702C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10A5B8D7-43B9-3145-4DCE-A9C244A36C5B" name="Titular_PK">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>EFE6D1F8-D1A6-2972-2F66-05BFD8109338</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BC764F4-027D-CC0E-4471-8AC6BB5D4775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1C5B6D-4015-FD69-279B-130F5E5D38D7" name="Titular__IDX">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>996F07AE-9F65-BEB8-BFDD-E2DB7140149C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3D8549F2-50AD-EABD-8684-D3A0844371E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFCB5B79-0132-1A60-0D1C-E36D2D7B07F9" name="Relation_Titular_Enderecov1">
+<createdBy>pedro.teles</createdBy>
+<createdTime>2025-05-20 00:38:57 UTC</createdTime>
+<generatorID>996F07AE-9F65-BEB8-BFDD-E2DB7140149C</generatorID>
+<ownerDesignName>AVA2-03-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D8549F2-50AD-EABD-8684-D3A0844371E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
